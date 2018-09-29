@@ -1,0 +1,171 @@
+.sale_date {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(204, 204, 204, 0.137255);
+}
+.chengkai {
+  height: 90px;
+  width: 100%;
+}
+.title{
+  width: 1000px;
+  margin: 10px auto;
+}
+.dateshow-enter,.dateshow-leave-to{
+  height: 0;
+  opacity: 0;
+}
+.dateshow-enter-to,.dateshow-leave{
+  height: 40px;
+  opacity: 1;
+}
+.dateshow-enter-active,.dateshow-leave-active{
+  transition: all 0.3s;
+}
+.sale_date{
+  background-color: rgba(204, 204, 204, 0.137254901960784);
+  padding: 0 10px;
+  .date {
+    width: 100%; 
+    .date_search {
+      background-color: #fff;
+      position: relative;
+      margin-top: 10px;
+      border: 1px solid rgba(215, 215, 215, 1);
+      width: 100%;
+      padding: 5px;
+      .search_title {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-weight: 600;
+      }
+      .search_list {
+        width: 90%;
+        margin-left: 120px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        position: relative;
+        .el-radio-button {
+          float: left;
+          margin-right: 100px;
+          margin-bottom: 10px;
+          .el-radio-button__inner {
+            width: 80px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 15px;
+            padding: 0;
+            border: none;
+            &:hover {
+              background-color: rgba(248, 164, 39, 1);
+              color: #fff;
+            }
+          }
+        }
+      } //可供选择的按钮列表
+  
+      .choose_date{
+        width: 100%;
+        .el-date-editor{
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }//自定义日期选择
+      .submit_search {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        button {
+          width: 80px;
+          height: 30px;
+          background-color: rgba(22, 155, 213, 1);
+          color: #fff;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+      } //提交按钮
+    } //条件搜索
+    .date_overview {
+      height: 166px;
+      width: 100%;
+      padding: 5px 10px;
+      border: 1px solid rgba(215, 215, 215, 1);
+      background-color: #fff;
+      margin-top: 10px;
+      .overview_detail {
+        margin-top: 20px;
+        ul {
+          li {
+            float: left;
+            width: 20%;
+            padding: 20px;
+            p {
+              font-size: 14px;
+              text-align: center;
+              &:nth-child(2) {
+                margin-top: 30px;
+                font-weight: 600;
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    } //销售概况
+    .date_sale_compare {
+      height: 260px;
+      width: 100%;
+      border: 1px solid rgba(215, 215, 215, 1);
+      margin-top: 10px;
+      background-color: #fff;
+      padding: 5px 10px;
+      .charts{
+        width: 100%;
+        height: 180px;
+        border:1px solid rgba(215, 215, 215, 1);
+      }
+    } //销售对比
+    .date_prolist {
+      width: 100%;
+      padding: 5px 10px;
+      background-color: #fff;
+      margin-top: 10px;
+      border: 1px solid rgba(215, 215, 215, 1);
+      position: relative;
+      // .export_excel{
+      //   width: 90px;
+      //   height: 20px;
+      //   line-height: 20px;
+      //   position: absolute;
+      //   right: 20px;
+      //   top: 10px;
+      //   background-color: rgba(22, 155, 213, 1);
+      //   border-radius: 5px;
+      //   color: #fff;
+      //   font-size: 12px;
+      //   text-align: center;
+      // }
+      .el-table {
+        margin-bottom:50px;
+        .el-table__header {
+          thead {
+            th {
+              background-color: rgba(213, 213, 210, 1);
+              height: 25px;
+              div {
+                color: black;
+              }
+            }
+          }
+        }
+      }
+      .el-pagination{
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }//结果列表
+  }
+}

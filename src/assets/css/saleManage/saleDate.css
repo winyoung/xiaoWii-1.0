@@ -1,0 +1,154 @@
+.sale_date {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(204, 204, 204, 0.137255);
+}
+.chengkai {
+  height: 90px;
+  width: 100%;
+}
+.title {
+  width: 1000px;
+  margin: 10px auto;
+}
+.dateshow-enter,
+.dateshow-leave-to {
+  height: 0;
+  opacity: 0;
+}
+.dateshow-enter-to,
+.dateshow-leave {
+  height: 40px;
+  opacity: 1;
+}
+.dateshow-enter-active,
+.dateshow-leave-active {
+  transition: all 0.3s;
+}
+.sale_date {
+  background-color: rgba(204, 204, 204, 0.1372549);
+  padding: 0 10px;
+}
+.sale_date .date {
+  width: 100%;
+}
+.sale_date .date .date_search {
+  background-color: #fff;
+  position: relative;
+  margin-top: 10px;
+  border: 1px solid #d7d7d7;
+  width: 100%;
+  padding: 5px;
+}
+.sale_date .date .date_search .search_title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-weight: 600;
+}
+.sale_date .date .date_search .search_list {
+  width: 90%;
+  margin-left: 120px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.sale_date .date .date_search .search_list .el-radio-button {
+  float: left;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+.sale_date .date .date_search .search_list .el-radio-button .el-radio-button__inner {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  padding: 0;
+  border: none;
+}
+.sale_date .date .date_search .search_list .el-radio-button .el-radio-button__inner:hover {
+  background-color: #f8a427;
+  color: #fff;
+}
+.sale_date .date .date_search .choose_date {
+  width: 100%;
+}
+.sale_date .date .date_search .choose_date .el-date-editor {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.sale_date .date .date_search .submit_search {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.sale_date .date .date_search .submit_search button {
+  width: 80px;
+  height: 30px;
+  background-color: #169bd5;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sale_date .date .date_overview {
+  height: 166px;
+  width: 100%;
+  padding: 5px 10px;
+  border: 1px solid #d7d7d7;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.sale_date .date .date_overview .overview_detail {
+  margin-top: 20px;
+}
+.sale_date .date .date_overview .overview_detail ul li {
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+.sale_date .date .date_overview .overview_detail ul li p {
+  font-size: 14px;
+  text-align: center;
+}
+.sale_date .date .date_overview .overview_detail ul li p:nth-child(2) {
+  margin-top: 30px;
+  font-weight: 600;
+  color: black;
+}
+.sale_date .date .date_sale_compare {
+  height: 260px;
+  width: 100%;
+  border: 1px solid #d7d7d7;
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+.sale_date .date .date_sale_compare .charts {
+  width: 100%;
+  height: 180px;
+  border: 1px solid #d7d7d7;
+}
+.sale_date .date .date_prolist {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #fff;
+  margin-top: 10px;
+  border: 1px solid #d7d7d7;
+  position: relative;
+}
+.sale_date .date .date_prolist .el-table {
+  margin-bottom: 50px;
+}
+.sale_date .date .date_prolist .el-table .el-table__header thead th {
+  background-color: #d5d5d2;
+  height: 25px;
+}
+.sale_date .date .date_prolist .el-table .el-table__header thead th div {
+  color: black;
+}
+.sale_date .date .date_prolist .el-pagination {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}

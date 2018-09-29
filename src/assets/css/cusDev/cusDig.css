@@ -1,0 +1,79 @@
+.chengkai {
+  height: 90px;
+  width: 100%;
+}
+.title {
+  width: 1000px;
+  margin: 10px auto;
+}
+.cus_dig {
+  width: 1000px;
+  margin: 0 auto;
+}
+.cus_dig .search {
+  width: 1000px;
+  position: relative;
+  border: 1px solid #d2d3d8;
+  border-radius: 5px;
+  background-color: #f2fafe;
+}
+.cus_dig .search .search_list {
+  width: 700px;
+  margin-left: 50%;
+  margin-bottom: 10px;
+  transform: translateX(-50%);
+}
+.cus_dig .mark {
+  background-color: #f2fafe;
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #d2d3d8;
+  border-radius: 5px;
+  padding: 5px;
+}
+.cus_dig .mark .mark_list {
+  margin-top: 10px;
+}
+.cus_dig .mark .mark_list div {
+  padding: 3px;
+  border: 1px solid #DDD;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  height: 23px;
+  line-height: 15px;
+}
+.cus_dig .mark .mark_list div b {
+  font-weight: 400;
+  color: #e4393c;
+}
+.cus_dig .mark .mark_list div em {
+  color: #409EFF;
+}
+.cus_dig .mark .mark_list div i {
+  cursor: pointer;
+  color: gray;
+  vertical-align: middle;
+}
+.cus_dig .mark .mark_list div:hover {
+  border: #e4393c 1px solid;
+}
+.cus_dig .mark .mark_list div:hover i {
+  color: #e4393c;
+}
+.cus_dig .mark .clearAllMark {
+  position: absolute;
+  top: 5px ;
+  right: 15px;
+}
+.cus_dig .mark .clearAllMark:hover {
+  color: red;
+  cursor: pointer;
+}
+.cus_dig .paginations {
+  margin: 20px 0;
+}
+.cus_dig .paginations .el-pagination {
+  margin-left: 550px;
+}

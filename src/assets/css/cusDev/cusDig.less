@@ -1,0 +1,85 @@
+.chengkai {
+  height: 90px;
+  width: 100%;
+}
+.title{
+  width: 1000px;
+  margin: 10px auto;
+}
+//客户挖掘
+.cus_dig{
+  width: 1000px;
+  margin: 0 auto;
+  .search{
+    width: 1000px;
+    position: relative;
+    border: 1px solid #d2d3d8;
+    border-radius: 5px;
+    background-color: #f2fafe;
+    .search_list{
+      width: 700px;
+      margin-left: 50%;
+      margin-bottom: 10px;
+      transform: translateX(-50%);
+    }
+  }
+
+  //条件标记
+  .mark{
+    background-color: #f2fafe;
+    position: relative;
+    width: 100%;
+    // height: 30px;
+    margin-top: 10px;
+    border: 1px solid #d2d3d8;
+    border-radius: 5px;
+    padding: 5px;
+    .mark_list{
+      margin-top: 10px;
+      div{
+        padding: 3px;
+        border: 1px solid #DDD;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        font-size: 12px;
+        height: 23px;
+        line-height: 15px;
+        b{
+          font-weight: 400;
+          color:#e4393c;
+        }
+        em{
+          color: #409EFF;
+        }
+        i{
+          cursor: pointer;
+          color: gray;
+          vertical-align: middle;
+        }
+        &:hover{
+          border: #e4393c 1px solid;
+          i{
+            color: #e4393c;
+          }
+        }
+      }
+    }
+    .clearAllMark{
+      position: absolute;
+      top: 5px ;
+      right: 15px;
+      &:hover{
+        color: red;
+        cursor: pointer;
+      }
+    }
+  }
+
+  //分页
+  .paginations{
+    margin: 20px 0;
+    .el-pagination {
+      margin-left: 550px;
+    }
+  }
+}
